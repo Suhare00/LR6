@@ -80,3 +80,12 @@ $ git revert HEAD
 ```bash
 $ git checkout -b report-branch
 ```
+## 13. Получение истории операций в форматированном виде
+
+```bash
+$ git log --pretty=format:"%h %ad | %s%d [%an]" --date=short
+```
+
+## 14. История операций
+
+![История операций:](./screenshots/Screenshot_15.png)
