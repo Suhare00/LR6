@@ -56,14 +56,19 @@ $ git log -1
 ## 9. Слияние веток
 
 ```bash
-$ git checkout master
-$ git marge Suhare00-patch-1
+$ git checkout branch1
+$ git marge master
 ```
+Возникновение конфликата:
+![Конфликт:](./screenshots/Screenshot_18.png)
+
+Решаем конфликт в VS Code (выбираем какое содержимое файла оставить)
+![Решение:](./screenshots/Screenshot_17.png)
 
 ## 10. Удаление побочной ветки после слияния
 
 ```bash
-$ git branch -d Suhare00-patch-1
+$ git branch -d branch1
 ```
 
 ## 11. Откат коммита
