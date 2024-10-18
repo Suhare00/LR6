@@ -60,10 +60,10 @@ $ git checkout branch1
 $ git marge master
 ```
 Возникновение конфликата:
-![Конфликт:](./screenshots/Screenshot_18.png)
+![Конфликт:](./screenshots/Screenshot_6.png)
 
 Решаем конфликт в VS Code (выбираем какое содержимое файла оставить)
-![Решение:](./screenshots/Screenshot_17.png)
+![Решение:](./screenshots/Screenshot_5.png)
 
 ## 10. Удаление побочной ветки после слияния
 
